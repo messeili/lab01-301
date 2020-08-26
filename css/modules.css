@@ -1,0 +1,33 @@
+.borderClass {
+    border: 1px solid black;
+}
+/* ********************MOBILE****************** */
+@media only screen and (min-width: 480px) and (max-width:767px) {
+    /* .MBorderT {
+        border-top: none;
+    } 
+    .MBorderR {
+        border-right: none;
+    }
+    .MBorderB {
+        border-bottom: none;
+    }
+    .MBorderL {
+        border-left: none;
+    } */
+}
+/* ********************Laptop & Desktop****************** */
+@media only screen and (min-width: 768px) and (max-width:960px) {
+    /* .DBorderT {
+        border-top: none;
+    } 
+    .DBorderR {
+        border-right: none;
+    }
+    .DBorderB {
+        border-bottom: none;
+    }
+    .DBorderL {
+        border-left: none;
+    } */
+}
