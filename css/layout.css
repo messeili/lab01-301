@@ -1,0 +1,318 @@
+/* ********************Laptop & Desktop****************** */
+@media only screen and (min-width: 768px) and (max-width:960px) {
+    body {
+        width: 100%;
+    }
+
+    header nav div{
+        height: 100px;
+        width: 100%;
+        background-color: orange;
+    
+    }
+    header nav div p{
+        line-height: 100px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+    flex-wrap: wrap;
+
+    }
+    main aside{
+        display: flex;
+        flex-direction: initial;
+        width: calc(((200/960)*100%));
+        
+    }
+    main aside div{
+        height:600px ;
+        
+        background-color: blue;
+        width:100%;   
+     }
+     main aside div p{
+         line-height: 600px;
+     }
+
+     article{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         width: calc(((760/960)*100%));
+     }
+     #container1{
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+         
+         
+     }
+     #container1 div{
+         width: 50%;
+         height: 200px;
+         background-color: brown;
+     }
+     #container1 div p{
+         line-height: 200px;
+     }
+     #container2{
+         display: flex;
+         flex-direction: row;
+         width:100% ;
+     }
+
+     #container2 div{
+         width: 25%;
+         height: 250px;
+         background-color: green;
+         
+     }
+     #container2 div p{
+         line-height: 250px;
+     }
+
+     #container3{
+         width:100% ;
+     }
+     #container3 div{
+         width: 100%;
+         height: 150px;
+         background-color: yellowgreen;
+     }
+     #container3 div p{
+         line-height: 150px;
+     }
+}
+
+/* ********************MOBILE****************** */
+@media only screen and (min-width: 480px) and (max-width:767px) {
+
+    body {
+        width: 100%;
+    }
+    header nav{
+        width: 100%;
+    }
+    
+    header nav div{
+        height: 75px;
+        
+        background-color: rebeccapurple;
+    
+    }
+    header nav div p{
+        line-height: 75px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+      
+
+    }
+    main aside{
+        width: 100%;
+    }
+    main aside div{
+        height: 150px;
+        background-color: greenyellow;
+    }
+    main aside div p{
+        line-height: 150px;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    #container1{
+        width: 100%;
+    }
+    #container1 div{
+        width: 100%;
+        height: 125px;
+        background-color: pink;
+    }
+    #container1 div p{
+        line-height: 125px;
+    }
+
+    #container2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #container2 div{
+        width: 50%;
+        height: 250px;
+        background-color: burlywood;
+
+    }
+    #container2 div p{
+        line-height: 250px;
+    }
+    #container3{
+        width: 100%;
+      
+    }
+    #container3 div{
+        height: 80px;
+        background-color: rosybrown;
+    }
+    #container3 div p{
+        line-height: 80px;
+    }
+}
+
+
+/* --------------wide screen viwe---------------- */
+@media (min-width: 960px){
+    
+    body {
+        width: 960px;
+    }
+
+    header nav div{
+        height: 100px;
+        width: 100%;
+        background-color: brown;
+    
+    }
+    header nav div p{
+        line-height: 100px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+    flex-wrap: wrap;
+
+    }
+    main aside{
+        display: flex;
+        flex-direction: initial;
+        width: calc(((200/960)*100%));
+        
+    }
+    main aside div{
+        height:600px ;
+        
+        background-color: red;
+        width:100%;   
+     }
+     main aside div p{
+         line-height: 600px;
+     }
+
+     article{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         width: calc(((760/960)*100%));
+     }
+     #container1{
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+         
+         
+     }
+     #container1 div{
+         width: 50%;
+         height: 200px;
+         background-color: blue;
+     }
+     #container1 div p{
+         line-height: 200px;
+     }
+     #container2{
+         display: flex;
+         flex-direction: row;
+         width:100% ;
+     }
+
+     #container2 div{
+         width: 25%;
+         height: 250px;
+         background-color: lawngreen;
+         
+     }
+     #container2 div p{
+         line-height: 250px;
+     }
+
+     #container3{
+         width:100% ;
+     }
+     #container3 div{
+         width: 100%;
+         height: 150px;
+         background-color: pink;
+     }
+     #container3 div p{
+         line-height: 150px;
+     }
+
+    /* body {
+        width: 960px;
+    }
+    main  div  {
+        display: inline-block;
+    }
+    section, footer {
+        float: right; */
+    
+    /* -----------------HEADER----------------- */
+    /* header nav div {
+        height: 100px;
+    }
+    header nav div p {
+        line-height: 100px; */
+/* } */
+    /* -----------------MAIN----------------- */
+    /* main aside {
+        width: calc(100%/4.8);
+        float: left;
+    }
+    main aside div {
+        height: 600px;
+        width: 100%;
+    }
+    main aside div p {
+        line-height: 600px;
+    }
+    main #container1, main #container2 {
+        width: calc(100%/(960/760));
+   }
+  
+    main #container1 div {
+        height: 200px;
+        width: 49.7%;
+        border-top: none;
+    }
+    main #container1 div p {
+        line-height: 200px;
+    }
+    main #container2 div {
+        height: 250px;
+        width: 24.55%;
+    }
+    main #container2 div p {
+        line-height: 250px;
+    } */
+
+    /* -----------------Footer----------------- */
+    /* footer {
+        width: calc(100%/(960/760));
+
+    }
+    footer div {
+        height: 150px;
+    }
+    footer div p {
+        line-height: 150px;
+    } */
+}
